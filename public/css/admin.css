@@ -1,0 +1,35 @@
+/* Admin Custom Styles */
+.sidebar {
+    transition: all 0.3s;
+}
+
+.sidebar-menu .nav-link {
+    padding: 0.8rem 1rem;
+    transition: all 0.3s;
+}
+
+.sidebar-menu .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.card {
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-opacity-10 {
+    opacity: 0.1;
+}
+
+/* Custom Badge Styles */
+.badge {
+    padding: 0.5em 1em;
+}
+
+/* Table Styles */
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.02);
+}
